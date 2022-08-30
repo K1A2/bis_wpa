@@ -1,0 +1,87 @@
+html {
+    background: #f8f8f8;
+}
+
+body {
+    margin: 0 auto;
+    padding: 24px;
+    max-width: 400px;
+}
+
+#top-bar-custom {
+    position: relative;
+    width: 100%;
+    height: 36px;
+}
+
+.profile-box {
+    right: 0;
+    top: 0;
+    display: inline-block;
+    width: 36px;
+    height: 36px; 
+    border-radius: 70%;
+    overflow: hidden;
+    background: #BDBDBD;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar {
+    left: 0;
+    top: 0;
+    margin-top: 6px;
+}
+
+.top-bar-item {
+    position: absolute;
+    cursor: pointer;
+}
+
+.search-bar {
+    height: 40px;
+    width: 100%;;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.13);
+    border-radius: 23.5px;
+    border: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-right: 15px;
+}
+
+.search-button {
+    width: 42px;
+    min-width: 42px;
+    max-width: 42px;
+    height: 42px;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.13);
+    border-radius: 23.5px;
+    border: none;
+    background-color: #FF5555;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.layout-main {
+    margin-bottom: 15px;
+}
+
+.search-from {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.main-content {
+    padding-left: 5px;
+    padding-right: 5px;
+}
