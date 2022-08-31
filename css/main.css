@@ -97,3 +97,93 @@ body {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.text-subtitle {
+    margin-left: -5px;
+}
+
+.layout-card {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 24px;
+}
+
+.bus-title {
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+}
+
+.bus-number {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.bus-station {
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.bus-direction {
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bus-time-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bus-time-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+}
+
+.bus-time-first {
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.bus-time-second {
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.bus-statin-left {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.bus-seat-left {
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}

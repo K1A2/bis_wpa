@@ -22,3 +22,38 @@ html {
 .search-bar {
     font-family: "SpoqaHanSansNeo-Regular";
 }
+
+.bus-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.bus-direction {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.bus-time-list {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.bus-gansun {
+    color: #344CFF;
+}
+
+.bus-ganhuk {
+    color: #FF0012;
+}
+
+.bus-ilban {
+    color: #00B021;
+}
+
+.bus-maul {
+    color: #A2C437;
+}
+
+.bus-sunwan {
+    color: #FFF600;
+}
