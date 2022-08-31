@@ -7,8 +7,10 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/icons.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
     </head>
     <body>
+        <script type="text/javascript" src="js/requs_data.js"></script>
         <div id="page-section">
             <div id="page-main">
                 <div id="top-bar-custom" class="layout-main">
@@ -19,12 +21,16 @@
                 </div>
                 <div class="main-content">
                     <form class="layout-main search-from" id="search-form">
-                        <input type="text" class="search-bar search-form-item" placeholder="대중교통 검색"/>
+                        <select name="place" class="search-place" id="search-place-selector"></select>
+                        <input name="number" type="text" class="search-bar search-form-item" placeholder="버스 번호 검색"/>
                         <button type="submit" form="search-form" class="search-button search-form-item">
                             <span class="material-icons color-white">search</span>
                         </button>
                     </form>
-                    <div class="text-subtitle">즐겨찾기</div>
+                    <div class="text-subtitle layout-main">즐겨찾기</div>
+                    <div>
+
+                    </div>
                 </div>
             </div>
         </div>
