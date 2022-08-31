@@ -43,7 +43,7 @@ function searchBusByNumber() {
     } else {
         if(typeof(history.pushState) == 'function') {
             showSearchModal(busPlace, busNumber);
-            // history.pushState(null, null, '#search');
+            history.pushState(null, null, '#search');
         } else {
 
         }

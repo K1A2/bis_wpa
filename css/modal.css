@@ -125,4 +125,6 @@
     flex: none;
     order: 1;
     flex-grow: 1;
+    width: 0px;
+    word-break: normal;
 }
