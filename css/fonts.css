@@ -23,6 +23,16 @@ html {
     font-family: "SpoqaHanSansNeo-Regular";
 }
 
+.bus-list-number {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.bus-list-section {
+    font-weight: 400;
+    font-size: 14px;
+}
+
 .bus-title {
     font-weight: 700;
     font-size: 18px;
@@ -56,4 +66,15 @@ html {
 
 .bus-sunwan {
     color: #FFF600;
+}
+
+.modal-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.modal-button-text {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
 }

@@ -5,13 +5,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/modal.css">
         <link rel="stylesheet" type="text/css" href="css/icons.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
         <script src="http://code.jquery.com/jquery-latest.js"></script>
     </head>
     <body>
-        <script type="text/javascript" src="js/requs_data.js"></script>
         <div id="page-section">
+            <div class="modal search-modal">
+                <div class="modal-body">
+                    <div class="modal-layout">
+                        <div class="modal-title">버스 선택</div>
+                        <div class="modal-scroll-section">
+                            <div class="bus-list-item">
+                                <div class="bus-list-number bus-gansun">99</div>
+                                <div class="bus-list-section">여기 - 저기</div>
+                            </div>
+                        </div>
+                        <div class="modal-button-section">
+                            <div class="modal-button-back">
+                                <div class="modal-button-text text-no">취소</div>
+                            </div>
+                            <div class="modal-button-next">
+                                <div class="modal-button-text text-yes">다음</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="page-main">
                 <div id="top-bar-custom" class="layout-main">
                     <span class="material-icons md-24 menu-bar top-bar-item">menu</span>
@@ -20,10 +41,143 @@
                     </div>
                 </div>
                 <div class="main-content">
-                    <form class="layout-main search-from" id="search-form">
-                        <select name="place" class="search-place" id="search-place-selector"></select>
+                    <form class="layout-main search-from" id="search-form" onsubmit="return false;">
+                        <select name="place" class="search-place" id="search-place-selector">
+                            <option value="31370">가평군</option>
+                            <option value="38090">거제시</option>
+                            <option value="38390">거창군</option>
+                            <option value="37100">경산시</option>
+                            <option value="37020">경주시</option>
+                            <option value="34070">계룡시</option>
+                            <option value="37370">고령군</option>
+                            <option value="32400">고성군</option>
+                            <option value="38340">고성군</option>
+                            <option value="31100">고양시</option>
+                            <option value="35370">고창군</option>
+                            <option value="36350">고흥군</option>
+                            <option value="34020">공주시</option>
+                            <option value="31110">과천시</option>
+                            <option value="31060">광명시</option>
+                            <option value="36060">광양시</option>
+                            <option value="24">광주광역시</option>
+                            <option value="31250">광주시</option>
+                            <option value="33360">괴산군</option>
+                            <option value="36330">구례군</option>
+                            <option value="31120">구리시</option>
+                            <option value="37050">구미시</option>
+                            <option value="35020">군산시</option>
+                            <option value="37310">군위군</option>
+                            <option value="31160">군포시</option>
+                            <option value="35060">김제시</option>
+                            <option value="37030">김천시</option>
+                            <option value="31230">김포시</option>
+                            <option value="38070">김해시</option>
+                            <option value="31130">남양주시</option>
+                            <option value="35050">남원시</option>
+                            <option value="38350">남해군</option>
+                            <option value="34060">논산시</option>
+                            <option value="33380">단양군</option>
+                            <option value="34390">당진시</option>
+                            <option value="22">대구광역시</option>
+                            <option value="25">대전광역시/계룡시</option>
+                            <option value="31080">동두천시</option>
+                            <option value="32040">동해시</option>
+                            <option value="36010">목포시</option>
+                            <option value="36420">무안군</option>
+                            <option value="35330">무주군</option>
+                            <option value="37090">문경시</option>
+                            <option value="38080">밀양시</option>
+                            <option value="33320">보은군</option>
+                            <option value="37410">봉화군</option>
+                            <option value="35380">부안군</option>
+                            <option value="34330">부여군</option>
+                            <option value="31050">부천시</option>
+                            <option value="38060">사천시</option>
+                            <option value="38370">산청군</option>
+                            <option value="37080">상주시</option>
+                            <option value="34050">서산시</option>
+                            <option value="31020">성남시</option>
+                            <option value="12">세종특별시</option>
+                            <option value="32060">속초시</option>
+                            <option value="31010">수원시</option>
+                            <option value="35360">순창군</option>
+                            <option value="36030">순천시</option>
+                            <option value="31150">시흥시</option>
+                            <option value="36480">신안군</option>
+                            <option value="34040">아산시</option>
+                            <option value="31090">안산시</option>
+                            <option value="31220">안성시</option>
+                            <option value="31040">안양시</option>
+                            <option value="32380">양구군</option>
+                            <option value="38100">양산시</option>
+                            <option value="32410">양양군</option>
+                            <option value="31260">양주시</option>
+                            <option value="31380">양평군</option>
+                            <option value="36020">여수시</option>
+                            <option value="31320">여주군</option>
+                            <option value="31350">연천군</option>
+                            <option value="36440">영광군</option>
+                            <option value="37350">영덕군</option>
+                            <option value="33340">영동군</option>
+                            <option value="36410">영암군</option>
+                            <option value="32330">영월군</option>
+                            <option value="37060">영주시</option>
+                            <option value="37070">영천시</option>
+                            <option value="31140">오산시</option>
+                            <option value="33330">옥천군</option>
+                            <option value="31190">용인시</option>
+                            <option value="37430">울릉군</option>
+                            <option value="26">울산광역시</option>
+                            <option value="37420">울진군</option>
+                            <option value="32020">원주시/횡성군</option>
+                            <option value="33370">음성군</option>
+                            <option value="38310">의령군</option>
+                            <option value="37320">의성군</option>
+                            <option value="31170">의왕시</option>
+                            <option value="31030">의정부시</option>
+                            <option value="31210">이천시</option>
+                            <option value="35030">익산시</option>
+                            <option value="32390">인제군</option>
+                            <option value="23">인천광역시</option>
+                            <option value="35350">임실군</option>
+                            <option value="35340">장수군</option>
+                            <option value="35010">전주시</option>
+                            <option value="35040">정읍시</option>
+                            <option value="39">제주도</option>
+                            <option value="33030">제천시</option>
+                            <option value="36470">진도군</option>
+                            <option value="35320">진안군</option>
+                            <option value="38030">진주시</option>
+                            <option value="33350">진천군</option>
+                            <option value="38330">창녕군</option>
+                            <option value="38010">창원시</option>
+                            <option value="34010">천안시</option>
+                            <option value="32360">철원군</option>
+                            <option value="37360">청도군</option>
+                            <option value="37330">청송군</option>
+                            <option value="33010">청주시</option>
+                            <option value="32010">춘천시</option>
+                            <option value="33020">충주시</option>
+                            <option value="37390">칠곡군</option>
+                            <option value="32050">태백시</option>
+                            <option value="38050">통영시</option>
+                            <option value="31200">파주시</option>
+                            <option value="31070">평택시</option>
+                            <option value="31270">포천시</option>
+                            <option value="37010">포항시</option>
+                            <option value="31180">하남시</option>
+                            <option value="38360">하동군</option>
+                            <option value="38320">함안군</option>
+                            <option value="38380">함양군</option>
+                            <option value="36430">함평군</option>
+                            <option value="38400">합천군</option>
+                            <option value="36400">해남군</option>
+                            <option value="32310">홍천군</option>
+                            <option value="31240">화성시</option>
+                            <option value="32370">화천군</option>
+                        </select>
                         <input name="number" type="text" class="search-bar search-form-item" placeholder="버스 번호 검색"/>
-                        <button type="submit" form="search-form" class="search-button search-form-item">
+                        <button type="submit" form="search-form" class="search-button search-form-item" onclick="searchBusByNumber()">
                             <span class="material-icons color-white">search</span>
                         </button>
                     </form>
@@ -49,7 +203,7 @@
                     </div>
                     <div class="layout-main layout-card">
                         <div class="bus-title">
-                            <div class="bus-number bus-ganhuk">90</div>
+                            <div class="bus-number bus-number-card bus-maul">90</div>
                             <div class="bus-station">한양대입구</div>
                         </div>
                         <div class="bus-direction">석호초교사거리 방면</div>
@@ -69,5 +223,7 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="js/requs_data.js"></script>
+        <script type="text/javascript" src="js/modal.js"></script>
     </body>
 </html>
