@@ -35,19 +35,19 @@ BIS open API를 이용해 버스 도착 정보를 확인할 수 있는 웹페이
 
 * pc
 
-  ![image-20220831214955739](C:\Users\jckim\AppData\Roaming\Typora\typora-user-images\image-20220831214955739.png)
+  ![image-20220831214955739](img/image-20220831214955739.png)
 
-  ![image-20220831215006101](C:\Users\jckim\AppData\Roaming\Typora\typora-user-images\image-20220831215006101.png)
+  ![image-20220831215006101](img/image-20220831215006101.png)
 
-  ![image-20220831215022253](C:\Users\jckim\AppData\Roaming\Typora\typora-user-images\image-20220831215022253.png)
+  ![image-20220831215022253](img/image-20220831215022253.png)
 
 * 모바일
 
-  ![image-20220831215057449](C:\Users\jckim\AppData\Roaming\Typora\typora-user-images\image-20220831215057449.png)
+  ![image-20220831215057449](img/image-20220831215057449.png)
 
-  ![image-20220831215111372](C:\Users\jckim\AppData\Roaming\Typora\typora-user-images\image-20220831215111372.png)
+  ![image-20220831215111372](img/image-20220831215111372.png)
 
-  ![image-20220831215125333](C:\Users\jckim\AppData\Roaming\Typora\typora-user-images\image-20220831215125333.png)
+  ![image-20220831215125333](img/image-20220831215125333.png)
 
 ## 문제점
 
